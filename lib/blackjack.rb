@@ -38,14 +38,14 @@ def hit?(total)
     total += deal_card
   elsif input == "s"
   else
-    puts "Please enter a valid command."
-    prompt_user
+    invalid_command
   end
   total
 end
 
 def invalid_command
-  # code invalid_command here
+  puts "Please enter a valid command."
+  prompt_user
 end
 
 #####################################################
@@ -54,5 +54,8 @@ end
 
 def runner
   # code runner here
+  welcome
+  total = initial_round
+  hit?(total)
 end
     
