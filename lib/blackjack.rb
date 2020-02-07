@@ -3,13 +3,11 @@ def welcome
 end
 
 def deal_card
-  puts(rand(11))
+  rand(11)
 end
 
-deal_card
-
 def display_card_total
-  # code #display_card_total here
+  # code #disp
 end
 
 def prompt_user
