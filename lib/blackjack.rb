@@ -1,5 +1,5 @@
 def welcome
-  puts "Welcome to the Blackjack Table."
+  puts "Welcome to the Blackjack Table"
 end
 
 def deal_card
@@ -7,11 +7,11 @@ def deal_card
 end
 
 def display_card_total(total)
-  puts "Your cards add up to #{total}."
+  puts "Your cards add up to #{total}"
 end
 
 def prompt_user
-  puts "Type 'h' to hit or 's' to stay."
+  puts "Type 'h' to hit or 's' to stay"
 end
 
 def get_user_input
@@ -44,7 +44,7 @@ def hit?(total)
 end
 
 def invalid_command
-  puts "Please enter a valid command."
+  puts "Please enter a valid command"
   prompt_user
 end
 
